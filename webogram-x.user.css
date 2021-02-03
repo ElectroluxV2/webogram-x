@@ -46,6 +46,13 @@
         color: var(--color-gray);
         scrollbar-width: none;
     }
+    
+    .im_history_messages_peer > div:nth-child(odd) {
+        background: linear-gradient(
+          rgba(0, 0, 0, 0.20), 
+          rgba(0, 0, 0, 0.20)
+        );
+    }
 
     .im_dialogs_scrollable_wrap a.im_dialog_searchpeer,
     .im_dialogs_scrollable_wrap a.im_dialog_searchpeer:hover,
