@@ -32,6 +32,10 @@
     --color-contact-list-hover: ;
     }
     
+    .tg_head_split, .im_page_wrap {
+        max-width: 100% !important;
+    }
+    
     html {
         background: var(--bg-color) !important;
         background-color: var(--bg-color) !important;
